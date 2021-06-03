@@ -16,7 +16,13 @@ You can install the dependencies directly by creating a conda environment.
 ``` 
 conda env create -f ecg_env.yml
 conda activate ecg_env
-``` 
+```  
+
+## Description
+To validate the stats using the Ribeiro's model on 30 000 ECG, look at `verif_data.ipynb`, you will see a recall level close to 100% and a pretty good precision rate.
+To try using Transfer Learning on a new Dataset coming from PTB-XL, look at `script_training.ipynb`. You can also find the plot of ECG after ResNet exposure and after interpolation.
+
+
 ## New Model
 The new model is watchable on this repos with the document `model.png`.     
 Ribeiro's pre-trained model is available in: https://doi.org/10.5281/zenodo.3625017  
