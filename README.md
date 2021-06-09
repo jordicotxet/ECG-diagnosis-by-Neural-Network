@@ -1,6 +1,6 @@
 # ECG-diagnosis-by-Neural-Network
 This repository is created in order to re-perform the stats of Ribeiro's article. The second objective is to predict on the PTB-XL dataset using transfer-learning with Ribeiro's Neural Network pre-trained architecture.  
-Then, the only training takes place with 3 Dense Layers added to the Main Model. Those 3 new layers are trained on 20 000 ECG, using 18 000 for training and 2 000 for validating  
+Then, the only training takes place with 1 Output layer added to the Main Model. This new layer is trained on 22 000 ECG, using 20 000 for training and 2 000 for validating  
 ## Citation
 Please, before looking at this github look at those two works that inspired this project.  
   
